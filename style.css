@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background:linear-gradient(to right,black,grey)
 }
 
 .container {
@@ -14,20 +15,27 @@ input[type="number"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
+  border-radius: 50px;
 }
 
 button {
   padding: 10px 20px;
-  background-color: blue;
+  background-color: darkslategray;
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 button:hover {
-  background-color: darkblue;
+  background-color: black;
 }
 
 h2 {
   margin-top: 20px;
+  color: whitesmoke;
+}
+
+h1{
+  color: whitesmoke;
 }
